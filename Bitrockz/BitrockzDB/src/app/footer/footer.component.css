@@ -1,0 +1,76 @@
+.container-fluid{
+    background-color: #020f27;
+    color:#fff;
+}
+#footer_logo{
+    font-family:Footlight MT Light;
+    font-size:45px;
+    color:#fff;
+    text-decoration: none;
+}
+small a{
+    color: #6d6d6d;
+    font-size: 13px;
+    line-height: 28px;
+    text-decoration: none;
+}
+small a:hover{
+    color: #fff;
+    cursor: pointer;
+}
+.navbar-brand {
+    display: inline-block;
+    margin: -2px 37px -2px -2px;
+    font-family: lora shrif;
+    font-size: 42px;
+    line-height: normal;
+    white-space: nowrap;
+    color: #fff;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+	margin: -5px 2px 0px 13px;
+}
+
+@media (min-width: 300px) and (max-width:575px) {}                   
+    h5{
+        font-size: 17px;
+    }
+@media (min-width: 576px) and (max-width:767px) {
+    #footer_logo {
+        font-family: Footlight MT Light;
+        font-size: 25px;
+        color: #fff; 
+        text-decoration: none;
+    }
+    h5{
+        font-size: 14px;
+    }
+    .navbar-brand[_ngcontent-c3] {
+        display: inline-block;
+        margin: -2px 37px -2px -18px;
+        font-family: lora shrif;
+        font-size: 30px;
+        line-height: normal;
+        white-space: nowrap;
+        color: #fff;
+    }
+    img{
+        vertical-align: middle;
+        border-style: none;
+        margin: -5px 2px 0px 13px;
+        height: 25px;
+        width: 25px;
+    }
+    small a{
+        color: #6d6d6d;
+        font-size: 12px;
+        line-height: 20px;
+        text-decoration: none;
+    }
+    .small, small {
+        font-size: 67%;
+        font-weight: 400;
+    }
+}

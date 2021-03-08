@@ -1,0 +1,31 @@
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 mt-5">
+            <div class="text-center"><img src="../../assets/img/bitrockzlogo.png" [routerLink]="['/home']" height="55px" width="285px"></div>
+            <div class="card shadow-lg my-3">
+                <div class="card-header text-center">
+                    <h5>Forgot Password</h5>
+                </div>
+                <div class="card-body">
+                    <form #userForm='ngForm'>
+
+                        <div class="form-group">
+                            <input [(ngModel)]="forgotUserData.email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" #email="ngModel" [class.is-invalid]="email.invalid && email.touched" [class.is-valid]="email.valid" name="email" type="email" class="form-control" placeholder="Email*" required> 
+                            <div *ngIf="email.errors && ( email.valid || email.touched)">
+                                <small class="text-danger" *ngIf="email.errors.required">Email is required</small>
+                                <small class="text-danger" *ngIf="email.errors.pattern">Email must like 'abc@xyz.co'</small>
+                            </div>
+                        </div>
+
+                        <button (click)="forgotUser()" [disabled]="userForm.form.invalid" class="btn btn-success btn-block">Submit</button>
+                    </form>
+                    <div class="card-footer text-center">
+                        <small class="font-weight-bold">Not Registered yet ?</small><br>
+                        <a [routerLink]="['/signup']">Register here</a><br>
+                        <a [routerLink]="['/login']">Login</a>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

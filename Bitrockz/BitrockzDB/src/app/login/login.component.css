@@ -1,0 +1,40 @@
+.container-fluid{
+    background-image: linear-gradient(to right,#060e13,#053e8a);
+    height: 100vh;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #5cb85c;
+}
+.card{
+    margin: 0px 50px;
+}
+.card-header{
+    background: #dff0d8;
+    font-size: 20px;
+    color: #5cb85c;
+    padding: 15px 0;
+    text-align: center;
+    overflow: hidden;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+@media (min-width: 300px) and (max-width:575px) {
+    .card{
+        margin: 0px 25px;
+    }
+}                   
+
+
+@media (min-width: 576px) and (max-width:767px) {
+    .container-fluid{
+        background-image: linear-gradient(to right,#060e13,#053e8a);
+        height: 155vh
+    }
+    .card{
+        margin: 0px 0px;
+    }
+}

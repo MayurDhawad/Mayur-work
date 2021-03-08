@@ -1,0 +1,20 @@
+.yellow-line {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #f9be06;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.contact-box h4 {
+    font-weight: 600;
+    font-size: 16px!important;
+    color: #222;
+}
+.contact-box h6{
+    color: #ccc;
+}
+.jumbotron {
+    background-color: #f8f9fa;
+}

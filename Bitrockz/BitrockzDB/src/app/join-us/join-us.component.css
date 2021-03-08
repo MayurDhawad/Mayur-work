@@ -1,0 +1,16 @@
+#join{
+    background-image: url("../../assets/img/join_bgm.jpg")
+}
+#join .deposit_data{
+    color:#fff;
+    padding:41px 2px;
+}
+#join .deposit_data h2{
+    color:#fff;
+}
+.fa{
+    font-size: 100px;
+}
+.card:hover{
+    border-color:#09224f;
+}

@@ -1,0 +1,15 @@
+<section>
+    <div class="card rounded-0">
+      <div class="card-header text-center rounded-0">
+          <h4 class="header-title">
+              LATEST NEWS
+          </h4>
+      </div>
+      <div class="card-body">
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item" style="cursor: pointer" (click)="onNewsClick(news)" *ngFor="let news of news">{{news.title}}</li>
+        </ul>
+      </div>
+    </div>
+</section>
+

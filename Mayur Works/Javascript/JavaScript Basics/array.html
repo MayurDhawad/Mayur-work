@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Array in javascript</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head> 
+<body>
+
+	<div class="container mt-5">
+		<h4 class="text-center">Accessing single elements of an array</h4>
+		<div class="row">
+			<div class="col-12 col-sm-4 mt-3">
+				<div class="card shadow text-center">
+					<div class="card-body">
+						<ul class="list-group">
+							<li class="list-group-item" id="list"></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-sm-4 mt-3">
+				<div class="card shadow text-center">
+					<div class="card-body">
+						<ul class="list-group">
+							<li class="list-group-item" id="list1"></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-sm-4 mt-3">
+				<div class="card shadow text-center">
+					<div class="card-body">
+						<ul class="list-group">
+							<li class="list-group-item" id="list2"></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-sm-4 mt-3">
+				<div class="card shadow text-center">
+					<div class="card-body">
+						<ul class="list-group">
+							<li class="list-group-item" id="list3"></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-sm-4 mt-3">
+				<div class="card shadow text-center">
+					<div class="card-body">
+						<ul class="list-group">
+							<li class="list-group-item" id="list4"></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-sm-4 mt-3">
+				<div class="card shadow text-center">
+					<div class="card-body">
+						<ul class="list-group">
+							<li class="list-group-item" id="list5"></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container mt-5">
+		<h4 class="text-center">Adding & removing an element from ArraY</h4>
+		<div class="row">
+			<div class="col-12 col-sm-3 mt-3 text-center">
+				<small class="text-info">Push</small>
+				<div class="card shadow text-center">
+					<div class="card-body">
+						<h5 id="push"></h5>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-sm-3 mt-3 text-center">
+				<small class="text-info">Pop</small>
+				<div class="card shadow text-center">
+					<div class="card-body">
+						<h5 id="pop"></h5>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-sm-3 mt-3 text-center">
+				<small class="text-info">Unshift</small>
+				<div class="card shadow text-center">
+					<div class="card-body">
+						<h5 id="unshift"></h5>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-sm-3 mt-3 text-center">
+				<small class="text-info">Shift</small>
+				<div class="card shadow text-center">
+					<div class="card-body">
+						<h5 id="shift"></h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		
+		const colors = ['red', 'green', 'blue','purple','orange']
+
+		document.getElementById('list').innerHTML = colors
+		document.getElementById('list1').innerHTML = colors[0]
+		document.getElementById('list2').innerHTML = colors[1]
+		document.getElementById('list3').innerHTML = colors[2]
+		document.getElementById('list4').innerHTML = colors[3]
+		document.getElementById('list5').innerHTML = colors[4]
+
+		const colors1 = ['red', 'green', 'blue', 'purple']
+
+		document.getElementById('push').innerHTML = colors1.push("white")
+		document.getElementById('push').innerHTML = colors1
+
+		const colors2 = ['red', 'green', 'blue', 'purple']
+
+		document.getElementById('pop').innerHTML = colors2.pop("red")
+		document.getElementById('pop').innerHTML = colors2
+
+		const colors3 = ['red', 'green', 'blue', 'purple']
+
+		document.getElementById('unshift').innerHTML = colors3.unshift("orange")
+		document.getElementById('unshift').innerHTML = colors3
+
+		const colors4 = ['red', 'green', 'blue', 'purple']
+
+		document.getElementById('shift').innerHTML = colors4.shift()
+		document.getElementById('shift').innerHTML = colors4
+
+	</script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lora|Poppins|Roboto&display=swap');
+
+/* ---------------- Global Styles-----------------*/
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.bg{
+    background-color: #ddd;
+}
+.bg-color{
+    background-color: #0a6970;
+}
+.text-color{
+    color: #0a6970;
+}
+
+/*------------------- Header --------------------*/
+#header-container{
+    max-width: 1275px !important;
+}
+#navbar-links .nav-link{
+    font-family: Roboto,sans-serif;
+    color: #0a6970;
+}
+@media (min-width: 300px) and (max-width:575px){ 
+    #header-container .navbar-nav{
+        background:#0a6970;
+        margin: 10px 0px;
+    }
+    #header-container .nav-item{
+        margin: 5px 0px;
+    }
+    #navbar-links .nav-link{
+        font-size: 12px;
+    }
+}
+
+/*----------------- Banner Section -----------------*/
+#banner{
+    background-color: #eeee;
+    height: 54vh;
+}
+#banner .item img{
+    width: 100%;
+    height: 355px;
+}
+#nav-news{
+     background-color: #035156;
+}
+@media (min-width: 1200px){
+    #nav-news .container-fluid{
+        max-width: 1234px;
+    }
+}
+
+/*------------------- Market Snapshot------------*/
+#market-snapshot .card h5{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: -5px;
+    margin-left: -15px;
+}
+#market-snapshot .card small{
+    font-size: 11px;
+    margin-left: -15px;
+}
+
+/*--------------- About US --------------------*/
+#about-us {
+    padding:75px 0px;
+}
+#about-us h2{
+    margin-bottom: 4rem;
+}
+#about-us h2::after{
+    content: '';
+    background: #3e3f48;
+    display: block;
+    height: 4px;
+    width: 8%;
+    margin: 12px auto;
+    border-radius: 30%;
+}
+#about-us h5{
+    font-size: 20px;
+    font-family: 'Lora', Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: #0a6970;
+}
+#about-us h6{
+    margin: 25px 0 25px 0;
+    color: #242424;
+    line-height: 1.5!important;
+    font-weight: 600;
+    font-size: 22px;
+    font-family: Poppins;
+}
+#about-us p{
+    margin: 0px 0 30px 0;
+    color: #797979;
+    font-size: 16px;
+    font-weight: 400;
+}
+#about-us .btn{
+    background-color: #fff;
+    border: 2px solid #0a6970;
+    border-radius: 50px;
+    padding: 17px 50px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 1px;
+    color: #0a6970;
+}
+#about-us .btn:hover{
+    background-color: #0a6970;
+    border: 2px solid #0a6970;
+    border-radius: 50px;
+    padding: 17px 50px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 1px;
+    color: #fff;
+}
+#about-us .card {
+    background-color: #e8e8e8;
+}
+
+#about-us img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 280px;
+    margin: 0 !important;
+}
+@media (min-width:300px) and (max-width: 576px){
+    #about-us img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 195px;
+        margin: 0 !important;
+    }
+}
+@media (min-width: 1200px){
+    #about-us .container{
+        max-width: 1234px;
+    }
+}
+
+/*------------------ Market-charts ----------------*/
+#market-chart{
+   padding:75px 0px;
+   background-color: #e8e8e8;
+}
+#market-chart h2{
+    margin-bottom: 4rem;
+}
+#market-chart h2::after{
+    content: '';
+    background: #3e3f48;
+    display: block;
+    height: 4px;
+    width: 10%;
+    margin: 12px auto;
+    border-radius: 30%;
+}
+#market-chart table tr th{
+    padding: 15px 10px;
+}
+#market-chart table tr td{
+    padding: 15px 10px;
+}
+
+/*--------------- Features -------------------*/
+#features{
+    padding : 75px 0px;
+}
+#features h2{
+    margin-bottom: 4rem;
+}
+#features h2::after{
+    content: '';
+    background: #3e3f48;
+    display: block;
+    height: 4px;
+    width: 20%;
+    margin: 12px auto;
+    border-radius: 30%;
+}
+#features .card:hover{
+    border:1px solid #0a6970;
+}
+    
+/*------------------ Footer -------------------*/
+
+#footer-container{
+    background-color: #0a6970;
+    color:#fff;
+}
+#footer_logo{
+    font-family:Footlight MT Light;
+    font-size:45px;
+    color:#fff;
+    text-decoration: none;
+}
+small a{
+    color: #6d6d6d;
+    font-size: 13px;
+    line-height: 28px;
+    text-decoration: none;
+}
+small a:hover{
+    color: #fff;
+    cursor: pointer;
+}
+.navbar-brand {
+    display: inline-block;
+    margin: -2px 37px -2px -2px;
+    font-family: lora shrif;
+    font-size: 34px;
+    line-height: normal;
+    white-space: nowrap;
+    color: #fff;
+}
+
+@media (min-width: 300px) and (max-width:575px) {                
+    h5{
+        font-size: 17px;
+    }
+}
+@media (min-width: 576px) and (max-width:767px) {
+    #footer_logo {
+        font-family: Footlight MT Light;
+        font-size: 25px;
+        color: #fff; 
+        text-decoration: none;
+    }
+    h5{
+        font-size: 14px;
+    }
+    .navbar-brand {
+        display: inline-block;
+        margin: -2px 37px -2px -18px;
+        font-family: lora shrif;
+        font-size: 30px;
+        line-height: normal;
+        white-space: nowrap;
+        color: #fff;
+    }
+    img{
+        vertical-align: middle;
+        border-style: none;
+        margin: -5px 2px 0px 13px;
+        height: 25px;
+        width: 25px;
+    }
+    small a{
+        color: #6d6d6d;
+        font-size: 12px;
+        line-height: 20px;
+        text-decoration: none;
+    }
+    .small, small {
+        font-size: 67%;
+        font-weight: 400;
+    }
+}

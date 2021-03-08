@@ -1,0 +1,743 @@
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body {
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color:#1c283e;
+  color: #fff;
+  font-size: 14px;
+}
+
+/* Header */
+nav{
+	background-color: #09224f
+}
+.dropdown .nav-link{
+	font-size: 12px;
+}
+.navbar-nav li a span{
+	color: #969696;
+}
+#navbardrop{
+	font-size: 18px;
+}
+.dropdown .nav-link:active{
+	font-size: 12px;
+	color: rgb(245, 188, 0);
+    background-color: #1c283e;
+}
+.tab-content{
+    background-color: #1c283e;
+}
+input {
+    background-color: #141d2d;
+    color: #fff;
+    border: 1px solid #3d4658;
+}
+input:focus {
+    background-color: #141d2d;
+    color: #fff;
+    border: 1px solid #3d4658;
+}
+#percent button{
+	background-color: #141d2d;
+	color: #fff;
+	border: 1px solid #3d4658;
+	padding: 0px;
+}
+
+.table {
+    margin-bottom: 9px;
+}
+.box{
+	background-color:#1c283e;
+	padding:1px;
+}
+.box-header{
+	background:#141d2d;
+}
+.box-header>.fa{
+	display: inline-block;
+    font-size: 20px;
+    margin: 0;
+    line-height: 1;
+	margin-right:5px;
+}
+.box-header{
+	color:#848892;
+	border-bottom: 1px solid #2b303a;
+}
+.box-title{
+    font-size: 14px;
+}
+.box-body th{
+	color: rgb(126, 132, 146);
+}
+.box .box-body span{
+	margin-left:1px;
+}
+.order_box{
+	text-align:center;
+	font-weight:normal;
+	width:100%;
+	margin:0px;
+}
+.order_box tbody tr {
+	/*background-color: #141d2d;*/
+	border-bottom: 1px solid #2b303a;
+	border-top: 1px solid #2b303a;
+	font-size: 12px;
+}
+.order, .trade{
+	text-align:center;
+	font-weight:normal;
+	width:100%;
+}
+.order th{
+	text-align:center;
+	font-weight:normal;
+	width:30%;
+}
+.dropdown-menu{
+	background-color: #2a3449
+}
+.dropdown-item:hover{
+	background-color: #141d2d;
+}
+.tab-pane{
+	padding: 0;
+	margin: 0;
+}
+.drp_body tr{
+	font-size: 12px;
+}
+#green{
+	color:#4db872;
+	font-size: 18px;
+	border-left:2px solid #4db872;
+}
+
+/*Section*/ 
+.nav-link.active{
+    color: rgb(245, 188, 0);
+    background-color: #1c283e;
+    font-weight: 100;
+    border-color: #1c283e;
+}
+.nav-link{
+    border: 0px solid transparent;
+    color: #fff;
+}
+.nav-tabs {
+	border-bottom: none;
+    background-color: #2a3449;
+}
+.box_decimals .dropdown {
+    position: relative;
+	display: inline-block;
+	background:#141d2d;
+}
+.dropdown button{
+	border: none;
+	background-color: #141d2d;
+	color: #98a3b5;
+}
+
+.buy_scrollscroll tr{
+	border-bottom: 1px solid #041025;
+}
+.trade_scroll{
+	height:220px;
+}
+h3 {
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+.market_scroll{
+	height:357px;
+}
+.btn-group-sm>.btn, .btn-sm {
+    padding: 0px 2px;
+}
+.sell_scroll th, .buy_scroll th{
+	color: rgb(162, 172, 195);
+}
+/*-----------Main Css*/
+
+.markets-block{
+	padding: 0px 0px;
+}
+.markets-block1{
+	height: 30vh;
+	padding: 0px 0px;
+	border-right: 2px solid #2a3449;
+}
+.markets-block2{
+	height: 30vh;
+	padding: 0px 0px;
+}
+#buy-sell{
+	margin-top: 0px;
+}
+.sell_scroll{
+	height:35vh;
+}
+.buy_scroll{
+	height:35vh;  
+}
+.chart{
+	width: 100%;
+	height: 60vh
+}
+#bor{
+    
+    height: 45vh;
+}
+
+
+/*-------- DropDown ---------*/
+
+
+.dropdown-menu {
+    background-color: #141d2d;
+    padding: 0;
+    margin: 0;
+}
+.navbar-dark .navbar-nav .nav-link.active{
+	color: #ffc107;
+	background-color: #7f8184;
+	border-radius: none;
+}
+.drp_body{
+	overflow: scroll;
+    width: 450px;
+    height: 180x;
+}
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #12161a;
+}
+.table td, .table th {
+    vertical-align: top;
+    border-top: none; 
+}
+.drp_body tr td {
+    font-size: 14px;
+}
+
+/*----------ScrollBar------------*/
+
+::-webkit-scrollbar {
+    width: 4px;
+    height:5px;
+	color:#46587c;
+}
+::-moz-scrollbar { 
+    width:2px;
+    height:5px;
+}
+::-webkit-scrollbar-thumb {
+    background: #46587c;
+}
+::-moz-scrollbar-thumb {
+	background: #46587c;
+	width:2px;
+    height:5px;
+}
+
+
+/* ------------------------------------- iPad Pro ----------------------------------- */
+
+@media only screen and (max-width: 991px) and (min-width :900px),
+(width: 1024px) and (height: 1366px) and (-webkit-min-device-pixel-ratio: 1.0) and (orientation: portrait)  {
+
+	#mobile{
+		display: none;
+	}
+	.markets-block{
+		height: 25vh;
+		padding: 0px 0px;
+	}
+	.markets-block1{
+		height: 29.8vh;
+		padding: 0px 0px;
+	}
+	.markets-block2{
+		height: 29.8vh;
+		padding: 0px 0px;
+	}
+	#buy-sell{
+		margin-top: -209px;
+	}
+	.chart{
+		width: 100%;
+		height: 61.9vh
+	}
+	.sell_scroll{
+		height: 42.6vh;
+		font-size: 15px;
+	}
+	.buy_scroll{
+		height: 42.6vh;
+		font-size: 15px;
+	}
+	#bor{
+		flex: 0 0 100%;
+        max-width: 100%;
+	}
+	.order_box tbody tr {
+		font-size: 13px;
+	}
+	.box-title {
+		font-size: 18px;
+	}
+	.p-1 {
+		margin: 0px 0px;
+	}
+	.dropdown button {
+		font-size: 18px;
+		padding-left: 18px;
+	}
+	.tab-pane {
+		font-size: 16px;
+	}
+}
+
+@media only screen and (max-width: 991px) and (min-width :900px), 
+(height: 1024px) and (width: 1366px) and (-webkit-min-device-pixel-ratio: 1.0) and (orientation: landscape){
+	#mobile{
+		display: none;
+	}
+	.markets-block{
+		height: 25vh;
+		padding: 0px 0px;
+	}
+	.markets-block1{
+		height: 21.3vh;
+		padding: 0px 0px;
+	}
+	.markets-block2{
+		height: 21.3vh;
+		padding: 0px 0px;
+	}
+	#buy-sell{
+		margin-top: -105px;
+	}
+	.chart{
+		width: 100%;
+		height: 68.9vh
+	}
+	.sell_scroll{
+		height: 52.6vh;
+		font-size: 19px;
+	}
+	.buy_scroll{
+		height: 52.6vh;
+		font-size: 19px;
+	}
+	#bor{
+		border-right: 1px solid #3d4658;
+	}
+	.order_box tbody tr {
+		font-size: 16px;
+	}
+	.box-title {
+		font-size: 20px;
+	}
+	.p-1 {
+		margin: 0px 0px;
+	}
+	.dropdown button {
+		font-size: 20px;
+		padding-left: 73px;
+	}
+	.tab-pane {
+		font-size: 16px;
+	}
+} 
+
+
+/*------------ipad Mini---------------*/
+
+@media only screen  and ( max-width : 991px) and ( min-width : 768px)
+and (-webkit-min-device-pixel-ratio: 1.0) and (orientation : portrait) { 
+	#mobile{
+		display: none;
+	}
+	.markets-block{
+		height: 25vh;
+		padding: 0px 0px;
+	}
+	.markets-block1{
+		height: 28.2vh;
+		padding: 0px 0px;
+	}
+	.markets-block2{
+		height: 28.2vh;
+		padding: 0px 0px;
+	}
+	#buy-sell{
+		margin-top: -252px;
+	}
+	.chart{
+		width: 100%;
+		height: 61.9vh
+	}
+	.sell_scroll{
+		height: 34.6vh;
+		font-size: 15px;
+	}
+	.buy_scroll{
+		height: 34.6vh;
+		font-size: 15px;
+	}
+	#bor{
+		flex: 0 0 100%;
+		max-width: 100%;
+		border-right: 1px solid #3d4658;
+	}
+	input{
+		height: 24px;
+	}
+	.order_box tbody tr {
+		font-size: 10px;
+	}
+	.order th {
+		font-size: 11px;
+	}
+	.tab-pane {
+		font-size: 10px;
+	}
+	#navbardrop {
+		font-size: 13px;
+	}
+	.dropdown .nav-link {
+		font-size: 12px;
+	}
+	body {
+		font-size: 10px;
+	}
+	#green{
+		color:#4db872;
+		font-size: 10px;
+		border-left:2px solid #4db872;
+	}
+}
+
+@media only screen and ( max-width : 1024px)and ( min-width : 991px) 
+and (-webkit-min-device-pixel-ratio: 1) and (orientation : landscape) { 
+	#mobile{
+		display: none;
+	}
+	.markets-block{
+		height: 25vh;
+		padding: 0px 0px;
+	}
+	.markets-block1{
+		height: 26.4vh;
+		padding: 0px 0px;
+	}
+	.markets-block2{
+		height: 26.4vh;
+		padding: 0px 0px;
+	}
+	#buy-sell{
+		margin-top: -137px;
+	}
+	.chart{
+		width: 100%;
+		height: 61.9vh
+	}
+	.sell_scroll{
+		height: 38.6vh;
+		font-size: 15px;
+	}
+	.buy_scroll{
+		height: 38.6vh;
+		font-size: 15px;
+	}
+	#bor{
+		border-right: 1px solid #3d4658;
+	}
+	
+}
+
+/*-----------------NorMal DeviCes----------------*/
+
+
+@media (min-width: 300px) and (max-width:575px) {
+    #desktop{
+		display: none;
+	}
+	body {
+		font-size: 13px;
+	}
+	.nav-tabs {
+		border-bottom: none;
+		background-color: #2a3449;
+		margin-top: 21vh;
+	}
+	#ipadpro{
+		position: relative;
+		width: 50%;
+		min-height: 1px;
+		font-size: 12px;
+	}
+	.navbar-nav {
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-direction: initial;
+	    flex-direction:  initial; 
+		padding-left: 0;
+		margin-bottom: 0;
+		list-style: none;
+	}
+	#green {
+		margin-left: 26px;
+	}
+	#buy-sell{
+		margin-top: 0px;
+	}
+	.markets-block1{
+		height: 0px;
+	}
+	.markets-block3{
+		margin-top: 0px;
+	}
+	.sell_scroll{
+		height: 38.6vh;
+	}
+	.buy_scroll{
+		height: 38.6vh;
+	}
+	a.nav-link.text-white {
+		margin: 5px;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width:767px) {
+    #desktop{
+		display: none;
+	}
+	.col-sm-5 {
+		-ms-flex: 0 0 41.666667%;
+		flex: 0 0 100%; 
+		max-width: 100%;
+	}
+	.col-md-5 {
+		-ms-flex: 0 0 41.666667%;
+		flex: 0 0 100%; 
+		max-width: 100%;
+	}
+	.col-lg-5 {
+		-ms-flex: 0 0 41.666667%;
+		flex: 0 0 100%; 
+		max-width: 100%;
+	}
+	.col-sm-7 {
+		-ms-flex: 0 0 41.666667%;
+		flex: 0 0 100%; 
+		max-width: 100%;
+	}
+	.col-md-7 {
+		-ms-flex: 0 0 41.666667%;
+		flex: 0 0 100%; 
+		max-width: 100%;
+	}
+	.col-lg-7 {
+		-ms-flex: 0 0 41.666667%;
+		flex: 0 0 100%; 
+		max-width: 100%;
+	}
+	.nav-tabs {
+		border-bottom: none;
+		background-color: #2a3449;
+		margin-top: 40vh;
+	}
+	.navbar-nav {
+		display: -ms-flexbox;
+		display: -webkit-inline-box;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		padding-left: 0;
+		margin-bottom: 0;
+		list-style: none;
+	}
+	.markets-block3{
+		margin-top: 65vh;
+	}
+	.markets-block2{
+		height: 22.4vh;
+		padding: 0px 0px;
+	}
+	#buy-sell{
+		margin-top: 0px;
+	}
+	.sell_scroll{
+		height: 50.6vh;
+	}
+	.buy_scroll{
+		height: 50.6vh;
+	}
+	.chart{
+		width: 100%;
+		height: 100.9vh
+	}
+}
+
+@media (min-width: 768px) and (max-width:899px) {
+	#mobile{
+		display: none;
+	}
+}
+
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width:1199px) {
+	#mobile{
+		display: none;
+	}
+}
+
+@media (min-width: 1200px) and (max-width:1365px) {
+	#mobile{
+		display: none;
+	}
+	#buy-sell{
+		margin-top: -133px;
+	}
+	.sell_scroll {
+		height: 34.9vh;
+	}
+	.buy_scroll {
+		height: 34.9vh;
+	}
+	.markets-block{
+		height: 25vh;
+		padding: 0px 0px;
+	}
+	.markets-block1{
+		height: 29vh;
+		padding: 0px 0px;
+	}
+	.markets-block2{
+		height: 29.6vh;
+		padding: 0px 0px;
+	}
+	.chart {
+		width: 100%;
+		height: 60.9vh;
+	}
+	#bor{
+		border-right: 1px solid #3d4658;
+	}
+	
+}
+@media (min-width: 1366px) and (max-width: 1439px){
+	#mobile{
+		display: none;
+	}	
+}
+
+@media (min-width: 1440px) and (max-width: 1909px){
+	#mobile{
+		display: none;
+	}
+	.sell_scroll{
+		height: 39.6vh;
+		font-size: 19px;
+	}
+	.buy_scroll{
+		height: 39.6vh;
+		font-size: 19px;
+	}
+	.chart{
+		height: 479px;
+	}
+	#bor{
+		border-right: 1px solid #3d4658;
+	}
+   .dropdown button{
+		font-size: 17px;
+		padding-left: 43px;
+	}
+	.box-title{
+		font-size: 19px;
+	}
+	.p-1 {
+        margin: 2px 0px;
+	}
+	.order_box tbody tr {
+		font-size: 17px;
+	}
+	.order th {
+		font-size: 17px;
+	}
+	.tab-pane{
+		font-size: 16px;
+	}
+	.ml-5, .mx-5 {
+		 margin-left: 0rem!important;
+	}
+	.btn-group-sm>.btn, .btn-sm {
+		font-size: 15px;
+	}
+	.ml-1, .mx-1 {
+		margin-left: 0px!important;
+	}
+}
+@media (min-width: 1910px){
+	#mobile{
+		display: none;
+	}
+	.sell_scroll{
+		height: 38.6vh;
+		font-size: 19px;
+	}
+	.buy_scroll{
+		height: 38.6vh;
+		font-size: 19px;
+	}
+	.chart{
+		height: 600px;
+	}
+	#bor{
+		border-right: 1px solid #3d4658;
+	}
+   .dropdown button{
+		font-size: 23px;
+		padding-left: 43px;
+	}
+	.box-title{
+		font-size: 24px;
+	}
+	.p-1 {
+    	margin: 2px 0px;
+	}
+	.order_box tbody tr {
+		font-size: 20px;
+	}
+	.order th {
+		font-size: 20px;
+	}
+	.tab-pane{
+		font-size: 20px;
+	}
+	.ml-5, .mx-5 {
+		 margin-left: 0rem!important;
+	}
+	.btn-group-sm>.btn, .btn-sm {
+		font-size: 21px;
+	}
+	.ml-1, .mx-1 {
+		margin-left: 0px!important;
+	}
+	.nav-link {
+		font-size: 18px;
+	}
+
+}

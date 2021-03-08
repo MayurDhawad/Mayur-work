@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Book List</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    
+    <div class="container mt-5">
+        <h1 class="display-4 text-center"><i class="fas fa-book-open text-primary mx-2"> </i>My <span class="text-primary">Book</span> List</h1>
+    </div>
+
+    <div class="container">
+        <form id="book-form">
+            <div class="form-group">
+                <label for="title">Title</label>
+                <input type="text" class="form-control" id="title">
+            </div>
+            <div class="form-group">
+                <label for="author">Author</label>
+                <input type="text" class="form-control" id="author">
+            </div>
+            <div class="form-group">
+                <label for="bookid">Book ID</label>
+                <input type="text" class="form-control" id="bookid">
+            </div>
+            <input type="button" class="btn btn-primary btn-block" onclick="bookinfo()" value="Add Book">
+        </form>
+    </div>
+
+    <div class="container mt-4">
+        <table class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Book ID</th>
+                    <th class="text-center"><i class="fas fa-trash-alt"></i></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th id="titleData"></th>
+                    <th id="authorData"></th>
+                    <th id="bookidData"></th>
+                    <td class="text-center"><i class="fas fa-trash-alt text-danger"></i></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://kit.fontawesome.com/99e618edd6.js" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>

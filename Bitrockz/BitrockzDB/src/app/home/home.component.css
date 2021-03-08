@@ -1,0 +1,82 @@
+.home-header{
+    background-color: #081f49;
+}
+#features h5{
+    font-size: 17px;
+    font-weight: 400
+}
+#news{
+    background-color:#132649;
+    border-top: 1px solid #383a40;
+    border-bottom: 1px solid #383a40;
+}
+.bgimg{
+    background: url('../../assets/img/bgm.png') center center / cover no-repeat;
+    padding: 114px 40px;
+}
+.content{
+    line-height: 30px;
+}
+.nav-tabs .nav-link.active {
+    color: #ffc107;
+    background-color: #f8f9fa;
+    border-color: #dee2e6 #dee2e6 #fff;
+    border-bottom: 1px solid #ffc107;
+}
+.nav-item a{
+    color: #6c748a;
+    font-weight: 500;
+}
+table tbody tr th{
+    font-weight: 600;
+}
+owl-carousel .card-img{
+    border:2px solid #374763;
+    border-radius:5px;
+}
+.shadow1{
+    box-shadow: 0px 10px 20px rgb(0,0,0,0.7);
+}
+.card-title,.card-text{
+    font-family:  Arial, sans-serif;
+    color: #5d5857;
+}
+.table thead th {
+    font-weight: 500;
+}
+table tbody tr th {
+    font-weight: 400;
+    font-size: 14px;
+}
+small {
+    color: #6e767d;
+    font-weight: 400
+}
+#features h5{
+    font-weight: bold;
+    color: #4c4c4c;
+}
+.font-weight{
+    font-weight: 500;
+}
+
+@media (min-width: 300px) and (max-width:575px) {
+    .card-title,.card-text{
+        font-family:  Arial, sans-serif;
+        font-size: 17px;
+        color: #5d5857;
+    }
+}                   
+@media (min-width: 576px) and (max-width:767px) {
+    
+    #features h5{
+        font-size: 11px;
+        font-weight: bold;
+        color: #6f6262;
+    }
+    small {
+        color: #947b72;
+        font-size: 76%;
+        font-weight: 400
+    }
+}

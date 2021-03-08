@@ -1,0 +1,43 @@
+.bg{
+    background-color: #09224e;
+}
+.card{
+    background-image: -webkit-linear-gradient(left,#041636,#0b2758);
+}
+.btn-sm{
+    background-color: #fff;
+    color: #09224e;
+    border-radius: 25px;
+    border: none;
+    float: right;
+    margin: 0px 19px;
+    padding: 4px 14px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.btn-sm:hover{
+    color: #fff;
+    background-color:#ffc107;;
+}
+.btn-default{
+    background-image: -webkit-linear-gradient(left,#304569,#050d1d);
+    color: #a79f9f;
+    padding: 1px 31px;
+    margin: 0px -18px 0px 0px;
+    font-size: 25px;
+    border-radius: 25px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.btn-outline-warning{
+    border-radius: 25px;
+}
+.nav-tabs .nav-link.active {
+    color: #f8f9fa;
+    background-color: #ffc107;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+.nav-tabs {
+    border-bottom: 1px solid #dee2e6;
+    width:fit-content;
+}

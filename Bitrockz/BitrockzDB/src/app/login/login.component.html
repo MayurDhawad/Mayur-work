@@ -1,0 +1,45 @@
+   
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 mt-5">
+            <div class="text-center"><img src="../../assets/img/bitrockzlogo.png" [routerLink]="['/home']" height="55px" width="285px"></div>
+            <div class="card shadow-lg my-3">
+                <div class="card-header text-success text-center">
+                    <h5>LOGIN</h5>
+                </div>
+                <div class="card-body">
+                    <form #userForm = "ngForm">
+
+                        <div class="form-group">
+                            <input [(ngModel)]="loginUserData.email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" #email="ngModel" [class.is-invalid]="email.invalid && email.touched" [class.is-valid]="email.valid" name="email" type="email" class="form-control" placeholder="Email*" required> 
+                            <div *ngIf="email.errors && ( email.valid || email.touched)">
+                                <small class="text-danger" *ngIf="email.errors.required">Email is required</small>
+                                <small class="text-danger" *ngIf="email.errors.pattern">Email must like 'abc@xyz.co'</small>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input [(ngModel)]="loginUserData.password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" #password="ngModel" [class.is-invalid]="password.invalid && password.touched" [class.is-valid]="password.valid" name="password" type="password" class="form-control" placeholder="Password*" required>
+                            <div *ngIf="password.errors && ( password.valid || password.touched)">
+                                <small class="text-danger" *ngIf="password.errors.required">Password is required</small>
+                                <small class="text-danger" *ngIf="password.errors.pattern">Password must contain 1 capital letter and 1 numerical value and should have 8 characters</small>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="customcheckbox" name="example1" value="customEx">
+                                <label class="custom-control-label" for="customcheckbox">Keep me logged in</label>
+                            </div>
+                        </div>
+                        
+                        <button (click)="loginUser()" [disabled]="userForm.form.invalid" class="btn btn-success btn-block">Login</button>
+                    </form>
+                    <div class="card-footer text-center">
+                        <small class="font-weight-bold">Not Registered yet ?</small><br>
+                        <a [routerLink]="['/signup']">Register here</a><br>
+                        <a [routerLink]="['/forgot_password']">Forgot Password</a>
+                    </div> 
+                </div> 
+            </div>
+        </div>
+    </div>
+</div>

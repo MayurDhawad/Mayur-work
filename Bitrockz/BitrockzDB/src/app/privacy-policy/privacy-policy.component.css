@@ -1,0 +1,13 @@
+.cms_content h3 {
+    font-size: 25px;
+    color: #000;
+    margin-bottom: 20px;
+}
+.cms_content p {
+    font-size: 15px;
+    color: #000;
+    line-height: 24px;
+}
+a {
+    color: #337ab7;
+}

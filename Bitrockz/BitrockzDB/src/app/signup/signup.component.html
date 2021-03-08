@@ -1,0 +1,55 @@
+
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 mt-4">
+            <div class="text-center"><img src="../../assets/img/bitrockzlogo.png" [routerLink]="['/home']" height="55px" width="285px"></div>
+            <div class="card my-3">
+                <div class="card-header text-center">
+                    <h5>Registration</h5>
+                </div>
+                <div class="card-body">
+                    <form #userForm='ngForm'>
+                        <div class="form-group">
+                            <input [(ngModel)]="registerUserData.name" minlength="3" maxlength="20" #name="ngModel" [class.is-invalid]="name.invalid && name.touched" [class.is-valid]="name.valid" name="name" type="text" class="form-control" placeholder="Name*" required>
+                            <small class="text-danger" [class.d-none]="name.valid || name.untouched">Name is Required</small>
+                        </div>
+
+                        <div class="form-group">
+                            <input [(ngModel)]="registerUserData.email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" #email="ngModel" [class.is-invalid]="email.invalid && email.touched" [class.is-valid]="email.valid" name="email" type="email" class="form-control" placeholder="Email*" required> 
+                            <div *ngIf="email.errors && ( email.valid || email.touched)">
+                                <small class="text-danger" *ngIf="email.errors.required">Email is required</small>
+                                <small class="text-danger" *ngIf="email.errors.pattern">Email must like 'abc@xyz.co'</small>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <input [(ngModel)]="registerUserData.password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" #password="ngModel" [class.is-invalid]="password.invalid && password.touched" [class.is-valid]="password.valid" name="password" type="password" class="form-control" placeholder="Password*" required>
+                            <div *ngIf="password.errors && ( password.valid || password.touched)">
+                                <small class="text-danger" *ngIf="password.errors.required">Password is required</small>
+                                <small class="text-danger" *ngIf="password.errors.pattern">Password must contain 1 capital letter and 1 numerical value and should have 8 characters</small>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <input compare="password" [(ngModel)]="registerUserData.cnfpassword" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" #cnfpassword="ngModel" [class.is-invalid]="cnfpassword.invalid && cnfpassword.touched" [class.is-valid]="cnfpassword.valid" name="cnfpassword" type="password" class="form-control" placeholder="Confirm Password*" required>
+                            <div *ngIf="cnfpassword.errors && ( cnfpassword.valid || cnfpassword.touched)">
+                                <small class="text-danger" *ngIf="cnfpassword.errors.required">Confirm Password is required</small>
+                                <small class="text-danger" *ngIf="!cnfpassword.errors.required && cnfpassword.errors.compare ">Confirm Password must match with password</small>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <input [(ngModel)]="registerUserData.referralcode" #referralcode="ngModel" maxlength="6" [class.is-valid]="referralcode.valid" name="referralcode" type="tel" class="form-control" placeholder="Referral Code (Optional)">
+                        </div>
+                        <button (click)="registerUser()" [disabled]="userForm.form.invalid" class="btn btn-success btn-block">Register</button>
+                    </form>
+                
+                    <div class="card-footer text-center">
+                        <small class="font-weight-bold">Already Registered ?</small><br>
+                        <a [routerLink]="['/login']" style="cursor: pointer; color:#007bff;">Login Here</a>
+                    </div> 
+                </div> 
+            </div>
+        </div>
+    </div>
+</div>

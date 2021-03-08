@@ -1,0 +1,63 @@
+
+----------------------------
+   Register User Api
+----------------------------
+router.post('/register', (req,res) =>{
+    console.log("New User Registration")
+    User.find({ email: req.body.email}, (err, user) =>{
+        if(user.length >= 1){
+            console.log("mail Id Already")
+            return res.status(500).send("Mail Id Already Exists")
+        }else{
+            bcrypt.hash(req.body.password, 10, (err, hash) => {
+                if(err){
+                    console.log(err)
+                    res.status(500).send(err)
+                }else{
+                    const user = new User({
+                        name: req.body.name,
+                        email: req.body.email,
+                        password: hash ,
+                        cnfpassword: hash,
+                        refcode: req.body.refcode   
+                    })
+                    user.save((err,registeredUser) =>{
+                        if(err){
+                            console.log(err)
+                        }else{
+                            console.log(registeredUser)
+                            let payload = { subject : registeredUser._id}
+                            let token = jwt.sign(payload, 'secretKey')
+                            res.status(200).send({token})
+                        }
+                    })
+                }
+            }) 
+        }
+    })  
+})
+
+
+
+-----------------------------
+   Login User Api
+-----------------------------
+
+router.post('/login', (req, res) =>{
+    console.log("login User")
+    User.find({ email: req.body.email}, (err,user) =>{
+        if(user.length < 1){
+            return res.status(401).send({message: "Invalid Email"})
+        }else{
+            bcrypt.compare(req.body.password, user[0].password, (err, result) =>{
+                if(result){
+                    let payload = { subject : result._id}
+                    let token = jwt.sign(payload, 'secretKey')
+                    return res.status(200).send({token})
+                }else{
+                    res.status(401).send("Invalid Password")
+                }
+            })
+        }
+    })
+})

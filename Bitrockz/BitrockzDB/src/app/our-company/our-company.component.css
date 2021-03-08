@@ -1,0 +1,35 @@
+.yellow-line {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #f9be06;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.jumbotron{
+    background-color:  #f8f9fa;
+}
+.heading span {
+    position: relative;
+    font-size: 15px;
+    font-weight: 500;
+    color: #ccc;
+    line-height: 200%;
+    margin-bottom: 10px;
+}
+.heading h2 {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    position: relative;
+    font-size: 33px;
+    font-weight: 400;
+    color: #2d2d2d;
+    line-height: 140%;
+    margin-bottom: 10px;
+}
+.heading p {
+    font-size: 15px;
+    color: #979797;
+    line-height: 160%;
+    margin-bottom: 50px;
+}

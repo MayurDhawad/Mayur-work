@@ -1,0 +1,16 @@
+<section>
+    <div class="mb-3">
+        <img [src]="news.url" height="400px" width="100%">      
+    </div>
+    <form>
+        <div class="form-group">
+            <input type="text" class="form-control rounded-0" name="title" [(ngModel)]="news.title"  placeholder="Title">
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control rounded-0" name="url" [(ngModel)]="news.url" placeholder="Url">
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control rounded-0" name="description" [(ngModel)]="news.description" placeholder="Description">
+        </div>
+    </form>
+</section>

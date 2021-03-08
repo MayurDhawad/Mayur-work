@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Roboto&display=swap');
+
+
+.section{
+    padding-top: 100px!important;
+    padding-bottom: 100px !important;
+}
+/*----------------- About us ------------------*/
+.top-bg-color{
+    background-image: url('../images/about1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#ef6d57;
+    height: 100vh;
+    width:100%
+}
+.bg-color{
+    background-color:#ef6d57;
+}
+.color{
+    color: #ef6d57;
+}
+#about_us .card{
+    height: 325px;
+}
+#about_us .main-text h2{
+    font-size: 48px;
+    color: #fff;
+    font-weight: 500;
+    font-family: "Tungsten A", "Tungsten B", "Khand", sans-serif;
+    line-height: 70px;
+}
+#about_us .section-heading > h1 {
+    font-size: 40px;
+    color:#ef6d57;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+#about_us .section-heading > h6 {
+    font-weight: 700;
+    color: #bec0cc;
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+#about_us .section-heading > h2 {
+    font-size: 40px;
+    margin: 0;
+    font-weight: 900;
+}
+#about_us .section-heading > p{
+    font-family: 'Roboto', sans-serif;
+    color: #75767c;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 18px;
+    line-height:28px !important;
+}
+#about_us .card p{
+    font-family: 'Roboto', sans-serif;
+    color: #75767c;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 18px;
+    line-height:28px !important;
+}
+@media(max-width:767px){
+    #about_us .main-text h2 {
+        font-size: 32px;
+        color: #fff;
+        font-weight: 500;
+        font-family: "Tungsten A", "Tungsten B", "Khand", sans-serif;
+        line-height: 45px;
+    }
+    #about_us .section-heading > h2 {
+        font-size: 30px;
+        margin: 0;
+        font-weight: 900;
+    }
+    #about_us .card{
+        height: 500px;
+    }
+    #about_us .card p{
+        font-family: 'Roboto', sans-serif;
+        color: #75767c;
+        font-size: 15px;
+        font-weight: 500;
+        margin-top: 18px;
+        line-height:28px !important;
+    }
+}
+
+/*---------------- Careers --------------------*/
+.careers-bg-color{
+    background-image: url('../images/background.png');
+    background-color: #21bdbd;
+    height: 375px;
+}
+#careers .card{
+    border : 0px solid #fff;
+}
+#careers img{
+    height:400px;
+}
+#careers .main-text{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#careers .main-text h2{
+    font-size: 80px;
+    color: #fff;
+    font-weight: 500;
+    font-family: "Tungsten A", "Tungsten B", "Khand", sans-serif;
+    line-height: 70px;
+}
+#careers .text-area h3{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #21bcbc;
+    text-transform: uppercase;
+}
+#careers .text-area h5{
+    font-size: 18px;
+    line-height: 32px;
+    margin: 20px 0;
+    font-weight: 100;
+    font-style: italic;
+    color: #373b3f;
+}
+#careers .text-area p{
+    font-size: 16px;
+    line-height:25px;
+    font-weight: 100;
+    color:#8b8b8b;
+    margin: 25px 0;
+}
+#careers .text-area a{
+    font-size: 16px;
+    line-height:25px;
+    font-weight: 100;
+    color:#fff;
+    background-color: #21bcbc;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 2px solid  #21bcbc;
+}
+#careers .text-area a:hover{
+    font-size: 16px;
+    line-height:25px;
+    font-weight: 100;
+    color: #21bcbc;;
+    background-color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 2px solid  #21bcbc;
+}
+#careers .values{
+    font-size: 40px;
+    margin-bottom:25px;
+    color: #21bcbc;
+    text-align: center;
+}
+.careers-bg{
+    background-image: url('../images/careers-background.jpg');
+}
+#careers .content-text h3{
+    font-size: 40px;
+    margin-bottom:25px;
+    color: #21bcbc;
+    text-align: center;
+}
+#careers .content-text p{
+    font-size: 16px;
+    line-height:25px;
+    font-weight: 100;
+    color:#585454;
+    margin: 25px 0;
+}
+#careers .content-text h1{
+    font-size: 25px;
+    color:#585454;
+    margin: 0px 0 40px;
+}
+#careers .card h3{
+    font-weight: 700 !important;
+}
+#careers .icon{
+    font-size: 52px;
+    color: #21bcbc;;
+}
+#careers .media h6{
+    font-size: 18px;
+    color: #606060;
+}
+#careers .media p{
+    font-size: 14px;
+    color: #868486;
+}
+#careers .border{
+    border: 1px solid #dcdcdc !important;
+}
+#careers .border:hover{
+    border:1px solid #21bcbc !important;
+}
+@media(max-width:767px){
+    /* #careers .card{
+        height:630px;
+    } */
+    #careers .text-area h3{
+        font-size: 40px;
+        margin-bottom: 10px;
+        color: #21bcbc;
+    }
+    #careers .text-area h5 {
+        font-size: 18px;
+        line-height: 25px;
+        margin: 20px 0;
+        font-weight: 100;
+    }
+    #careers .text-area p {
+        font-size: 15px;
+        line-height: 25px;
+        margin: 20px 0;
+    }
+    #careers .text-area a{
+        font-size: 14px;
+        line-height:25px;
+        font-weight: 100;
+        color:#fff;
+        background-color: #21bcbc;
+        padding: 5px 10px;
+        text-decoration: none;
+        border-radius: 8px;
+        border: 2px solid  #21bcbc;
+    }
+    #careers .text-area a:hover{
+        font-size: 14px;
+        line-height:25px;
+        font-weight: 100;
+        color: #21bcbc;;
+        background-color: #fff;
+        padding: 5px 10px;
+        text-decoration: none;
+        border-radius: 8px;
+        border: 2px solid  #21bcbc;
+    }
+}
+
+/*----------------- Contact us -------------------*/
+.contact-bg-color{
+    background-image: url('../images/background.png');
+    background-color: #e03a3c;
+    height: 375px;
+}
+#contact .main-text{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact .main-text h2{
+    font-size: 80px;
+    color: #fff;
+    font-weight: 500;
+    font-family: "Tungsten A", "Tungsten B", "Khand", sans-serif;
+    line-height: 70px;
+}
+
+/*-------------------- AI ----------------------*/
+.ai-bg-image{
+    background-image: url('../images/image-1.jpg');
+    height: 100vh;
+}
+#ai h2{
+    font-size: 55px;
+    margin-top: 200px;
+    color: #5465cd;
+    font-family: "Tungsten A", "Tungsten B", "Khand", sans-serif;
+}
+#ai .ai-text h3{
+    font-size: 40px;
+    color: #5465cd;
+    font-family: "Tungsten A", "Tungsten B", "Khand", sans-serif;
+}
+#ai .ai-text p{
+    font-size: 15px;
+    color: #868486;
+    margin-top: 20px;
+}
+#ai .head-area h5{
+    font-size: 13px;
+    font-weight: 600 !important;
+    line-height: 20px;
+    color: #999999;
+    margin-bottom: 10px;
+    letter-spacing: .5px;
+}
+#ai .head-area h4{
+    color: #3c4858;
+    font-size: 27px;
+    line-height: 33px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+#ai .card{
+    height: 400px;
+}
+#ai .card i{
+    font-size: 75px;
+    color: #5465cd;
+    margin: 30px 0;
+}
+#ai .card h4{
+    color:#5465cd; 
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+#ai .card p{
+    font-size: 15px;
+    color: #868486;
+}
+#ai .card:hover{
+    border:1px solid #5465cd;
+}
+#ai .title{
+    color: #959393 !important;
+    font-size: 15px !important;
+}
+#ai .heading{
+    font-size: 38px;
+    margin-top: 5px;
+    color: #5465cd;
+    font-family: "Tungsten A", "Tungsten B", "Khand", sans-serif;
+}
+#ai .matter{
+    font-size: 15px;
+    color: #787878;
+}
+#ai .media .heading{
+    color: #5465cd;
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+    line-height: 1.2em;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+#ai .media .matter{
+    font-size: 12px;
+    line-height: 19px;
+    margin-bottom: 15px;
+}
+#ai .media i{
+    font-size: 60px;
+    color: #5465cd;
+    margin: 10px 15px 0px 0px;
+}
+
+@media (max-width:767px){
+    #ai h2{
+        color: #fff;
+    }
+    #ai .mobile{
+        margin-top: 20px;
+    }
+    #ai .heading {
+        font-size: 30px;
+        margin-top: 10px;
+        color: #5465cd;
+        padding-left: 0px;
+        margin-bottom: 10px;
+    }
+}
+
+/*----------------- Blockchain ----------------*/
+
+.blockchain-bg-image{
+    background-image: url('../images/image-3.jpg');
+    height: 100vh;
+}
+#blockchain h2{
+    font-size: 55px;
+    margin-top: 200px;
+    color:#61b8fb;
+    font-family: "Tungsten A", "Tungsten B", "Khand", sans-serif;
+}
+
+@media (max-width:767px){
+    #blockchain h2{
+        color: #fff;
+    }
+    #blockchain .mobile{
+        margin-top: 20px;
+    }
+}
+
+/*----------------- IOT ----------------*/
+
+.iot-bg-image{
+    background-image: url('../images/image-4.jpg');
+    height: 100vh;
+}
+#iot h2{
+    font-size: 55px;
+    margin-top: 200px;
+    color:#88dfb4;
+    font-family:  "Tungsten B", "Khand", sans-serif;
+}
+
+@media (max-width:767px){
+    #iot h2{
+        color: #fff;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

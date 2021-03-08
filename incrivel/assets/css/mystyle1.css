@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Roboto&display=swap');
+
+
+/*------------------- General Styles --------------*/
+.section-25{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.section-50{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.section-75{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+.section-100{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.p1-text{
+    font-size: 12px;
+    color: #545454cc;
+    line-height: 25px;
+}
+.p2-text{
+    font-size: 13px;
+    color: #545454cc;
+    line-height: 25px;
+}
+.p3-text{
+    font-size: 14px;
+    color: #545454cc;
+    line-height: 25px;
+}
+.p4-text{
+    font-size: 15px;
+    color: #545454cc;
+    line-height: 25px;
+}
+.p5-text{
+    font-size: 16px;
+    color: #545454cc;
+    line-height: 25px;
+}
+/*------------------ Testing -----------------*/
+
+.testing-bg-img{
+    background-image: url('../images/background-2.png') !important;
+    background-color: #2cbfc7 !important;
+    height: 100vh;
+    z-index: 1;
+}
+.testing-bg-img .container{
+    background-image: url('../images/background-3.png') !important;
+}
+.testing-bg-color{
+    background-color: #2cbfc7 !important;
+}
+
+/*------------------ Data Analytics --------------*/
+.dataanalytics-bg-img{
+    background-image: url('../images/background.png');
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section2, .section4{
+    background-color: #b8a8e0 !important;
+}
+.section3 ,.section1{
+    background-color: #e2e2e2;
+}
+#dataanalytics .section1 p{
+    font-size: 24px;
+    line-height: 35px;
+    font-style: italic;
+}
+#dataanalytics .section2 h3{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+#dataanalytics .section3 .card{
+    border: none;
+}
+#dataanalytics .section3 h1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 38px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+#dataanalytics .section3 h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 15px 0;
+}
+#dataanalytics .section3 p{
+    font-size: 15px;
+    line-height: 24px;
+}
+#dataanalytics .section3 a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+#dataanalytics .section3 .card:hover{
+    background-color: #bdafe3;
+    color: #fff;
+}
+#dataanalytics .section4 h4{
+    color: #d30e0e!important;
+    font-family: 'Roboto', sans-serif;
+}
+#dataanalytics .section4 h2{
+    font-size: 50px;
+    line-height: 55px;
+    padding: 12px 0;
+    font-family: "Tungsten A", "Tungsten B", "Khand", sans-serif;
+}
+@media(max-width:767px){
+    .section4 h2 {
+        font-size: 40px;
+        line-height: 41px;
+        padding: 12px 0;
+        font-family: "Tungsten A", "Tungsten B", "Khand", sans-serif;
+    }
+}
+
+/*------------------ internet Marketing --------------*/
+.internet-bg-img{
+    background-image: url('../images/background.png');
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#internetmarketing .section1 p, .section2 p{
+    font-size: 17px;
+}
+
+/*------------------ Conversions --------------*/
+.conversions-bg-img{
+    background-image: url('../images/background.png');
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#conversions .section1 p, .section2 p{
+    font-size: 17px;
+}
+/*------------------ Business Consulting --------------*/
+.business-bg-img{
+    background-image: url('../images/background.png');
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#business .section1 p, .section2 p{
+    font-size: 17px;
+}
+#business .section2 h3 {
+    font-family: "Tungsten A", "Tungsten B", "Khand", sans-serif;
+    font-size: 35px;
+    line-height: 45px;
+}
+
+/*------------------ PhP Development ------------------*/
+.php-bg-img{
+    background-image: url('../images/background.png');
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#phpdev .section1 h3 {
+    font-family: "Tungsten A", "Tungsten B", "Khand", sans-serif;
+    font-size: 35px;
+    line-height: 45px;
+}
+#phpdev .section1 p, .section2 p, .section3 p{
+    font-size: 17px;
+}
+
+/*------------------ Digital Marketing ----------------*/
+.digital-bg-img{
+    background-image: url('../images/background.png');
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#digital .section2 h3 {
+    font-family: "Tungsten A", "Tungsten B", "Khand", sans-serif;
+    font-size: 35px;
+    line-height: 45px;
+}
+#digital .section1 p{
+    font-size: 17px;
+} 
+
+
+/*---------------- Mobile App Development ------------------*/
+
+#mobileapp{
+    background-image: url('../images/background-2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #47bdaa;
+    height: 100vh;
+    width:100%
+}
+#mobileapp h1{
+    font-size: 60px;
+    color: #fff;
+    font-weight: 500;
+    font-family: "Tungsten A", "Tungsten B", "Khand", sans-serif;
+    line-height: 65px;
+}
+#mobileapp p{
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Arimo', sans-serif;
+    line-height: 32px;
+    margin: 12px 0;
+}
+#mobileapp .btn{
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 10px 20px;
+}
+#mobileapp .btn:hover{
+    background-color:#fff;
+    border: 2px solid#fff;
+    color: #47bdaa;;
+    padding: 10px 20px;
+}
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+#mobileappdev h2{
+    font-size: 45px;
+    font-weight: 500;
+    font-family: "Tungsten A", "Tungsten B", "Khand", sans-serif;
+    line-height: 50px;
+}
+
+@media(max-width:767px){
+    #mobileapp h1{
+        font-size: 40px;
+        color: #fff;
+        font-weight: 500;
+        font-family: "Tungsten A", "Tungsten B", "Khand", sans-serif;
+        line-height: 34px;
+        margin-top: 100px;
+    }
+    #mobileapp p{
+        font-size: 14px;
+        color: #fff;
+        font-family: 'Arimo', sans-serif;
+        line-height: 26px;
+        margin: 8px 0;
+    }
+    #mobileapp .btn{
+        background-color: transparent;
+        border: 2px solid #fff;
+        color: #fff;
+        padding: 6px 12px;
+    }
+    #mobileapp img{
+       height: 165px !important;
+    }
+}
+
+/*----------------- Hr Recruting ----------------------*/
+.hr-bg-img{
+    background-image: url('../images/background.png');
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*----------------- Logo Designing --------------------*/
+.logo-bg-img{
+    background-image: url('../images/background.png');
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#logodesigning .section1 h3 {
+    font-family: "Tungsten A", "Tungsten B", "Khand", sans-serif;
+    font-size: 35px;
+    line-height: 45px;
+}
+/*-------------------- ERP Solutions -------------------*/
+.erp-bg-img{
+    background-image: url('../images/background.png');
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#erpsolutions h3{
+    font-family: "Tungsten A", "Tungsten B", "Khand", sans-serif;
+    font-size: 35px;
+    line-height: 45px;
+}
+
+/*------------------- Software Development --------------------*/
+
+.software-bg-img {
+    background-color: #2cbfc7;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#softwaredev h3{
+    font-family: "Tungsten A", "Tungsten B", "Khand", sans-serif;
+    font-size: 35px;
+    line-height: 45px;
+}
+
+/*-------------------- Web development ------------------------*/
+.web-bg-img{
+    background-image: url('../images/bg4.png');
+    background-color: #ee8514;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.web-bg-img h1{
+    font-size: 50px;
+}

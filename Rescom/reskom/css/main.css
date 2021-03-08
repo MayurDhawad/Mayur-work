@@ -1,0 +1,1029 @@
+/*------------------ Global Styles--------------*/
+
+.header{
+    background-repeat:  no-repeat;
+    background-size: cover;
+    margin:75px 0px;
+}
+.header1{
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-color: #ddd;
+    padding: 75px 0px;
+}
+.margin-50{
+    margin: 50px 0px;
+}
+.margin-25{
+    margin: 25px 0px;
+}
+.mar-top-25{
+    margin-top: 25px;
+}
+.mar-bottom-25{
+    margin-bottom: 25px;
+}
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 2px solid #ccc;
+}
+/*--------------------- Card ---------------------*/
+.header .card{
+    height: 500px;
+    margin: 20px 0px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 10px 20px rgb(0,0,0,0.5);
+    box-shadow: 0px 10px 20px rgb(0,0,0,0.5);
+   
+}
+.header .card img{
+    max-height: 100%;
+    max-width: 100%;
+}
+.header .card .card-img{
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 250px;
+}
+.header .card .card-img img{
+    -webkit-transition: all 1.5s ease;
+    transition: all 1.5s ease;
+} 
+.header .card .card-img:hover img{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+} 
+.header .card-img img{
+    border-radius: 0px;
+    height: 250px;
+}
+.header .card-content{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 25px;
+    height: 250px;
+}
+.header .card-content h3{
+    color: #1f6063;
+    font-size: 16px;
+   text-transform: uppercase;
+   font-family: roboto;
+ }
+ .header .card-content p{
+     text-align: justify;
+    color: #757272;
+    font-size: 14px;
+ }
+ .header .card-content .btn{
+    border: 1px solid #1f6063;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #1f6063;
+ }
+ .header .card-content .btn:hover{
+    border: 1px solid #1f6063;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #1f6063;
+    color: #fff;
+ }
+#mininav1 .heading{
+    background-color:#1f6063;
+    border: 1px solid #1f6063;
+    color: #fff;
+    text-align: center;
+}
+
+ /*------------------Banners-------------------------*/
+
+.banner-up{
+    background-repeat:  no-repeat;
+    background-size: cover;
+    max-height: 420px;
+    padding: 75px 0px;
+}
+.banner-up h1{
+    font-family:'Roboto', sans-serif;
+    color:#fff;
+}
+.banner-up p{
+    font-family:'Tahoma', sans-serif;
+    color:rgb(158, 152, 152);
+}
+.banner-up .btn{
+    background-color: transparent;
+    border:1px solid #fff;
+    color: #fff;
+}
+.banner-up .btn:hover{
+    background-color: #fff;
+    border:1px solid #fff;
+    color: #1f6063;
+} 
+.banner-down{
+    background-image: url('../image/img/banners/banner-blockchain-solutions.jpg');
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-color: #000;
+    padding: 75px 0px;
+}
+.banner-down h2{
+    color: #fff;
+}
+.banner-down p{
+    color: #fff;
+}
+.banner-down .btn{
+    background-color: transparent;
+    border:1px solid #fff;
+    color: #fff;
+    margin: 10px 0px;
+}
+.banner-down .btn:hover{
+    background-color:#fff;
+    border:1px solid #fff;
+    color: rgb(129, 122, 122);
+}
+.banner-down-1{
+    background-color: #1f6063;
+    color: #fff;
+    padding: 35px 0px;
+}
+.banner-down-1 a{
+   background-color: transparent;
+   color: #fff;
+   border: 2px solid #fff;
+   margin: 15px 0px 0px 0px;
+}
+.banner-down-1 a:hover{
+   background-color: #fff;
+   color: #1f6063;
+   border: 2px solid #fff;
+   margin: 15px 0px 0px 0px;
+}
+
+/*---------------About Us----------------*/
+
+.about-us .bg-1{
+    background-color: #1f6063;
+    padding: 32px 6px;
+    color: #fff;
+    margin-bottom: 1px;
+}
+.about-us .bg-2{
+    background-color: #8a6d3b;
+    padding: 32px 6px;
+    color: #fff;
+    margin-bottom: 1px;
+}
+.about-us .bg-1 .icon-box{
+    background-color: #8a6d3b;
+}
+/* ------------------------ Careers -----------------------------*/
+#careers .title{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px;
+}
+#careers .card1{
+    box-shadow: 0px 3px 6px rgb(0,0,0,0.5);
+    border-radius: 10px;
+    margin: 10px 0px;
+    padding: 25px;
+    transition: 0.5s ease-in-out;
+}
+#careers .card1:hover{
+    box-shadow: 0px 7px 15px rgb(0,0,0,0.5);
+    border-radius: 10px;
+    margin: 10px 0px;
+    padding: 25px;
+    
+    transform: translateY(-10px);
+}
+#careers .btn-success{
+    background-color: #fff;
+    color: #1f6063;
+    border: 1px solid #767b7b;
+    border-radius: 10px;
+    padding: 10px; 
+}
+#careers .btn-success:hover{
+    background-color: #1f6063;
+    color: #ddd;
+    border: 1px solid #767b7b;
+    border-radius: 10px;
+    padding: 10px; 
+}
+#careers .box-img{
+    box-shadow: 0px 5px 12px rgb(0,0,0,0.7);
+    border-radius: 10px;
+}
+#careers .card2{
+    margin: 15px 0px;
+    box-shadow:0px 10px 20px rgb(0,0,0,0.5);
+    border-radius:10px;
+}
+#careers .card2 img{
+    border-radius:10px;
+}
+.header .card2 .card-img{
+    overflow: hidden;
+    border-radius:10px;
+}
+.header .card2 .card-img img{
+    transition: all 1.5s ease;
+} 
+.header .card2 .card-img:hover img{
+    transform: scale(1.8);
+} 
+/*------------------- New Coin Development ----------------*/
+#new-coin-dev .title{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px;
+}
+.bg-color{
+    background-color: #1f6063;
+}
+#new-coin-dev .alert-success{
+    margin: 50px 15px;
+    padding: 37px;
+    background-color: #fff;
+    color: #1f6063;
+}
+#new-coin-dev .alert-success h1{
+    letter-spacing: 4px;
+}
+#new-coin-dev .alert-success p{
+    font-size: 13px;
+}
+#new-coin-dev .alert-primary{
+    color:#fff;
+    margin: 50px 0px;
+}
+#new-coin-dev .alert-primary1{
+    color:#1f6063;
+    margin: 50px 0px;
+}
+#new-coin-dev .alert-danger{
+    margin: 50px 15px;
+    padding: 37px;
+    background-color: #1f6063;
+    color: #fff;
+}
+#new-coin-dev .alert-danger p{
+    font-size: 13px;
+}
+#new-coin-dev .alert-danger h2{
+   color: #fff;
+}
+#new-coin-dev .alert-dark{
+    background-color: #fff;
+    color: #1f6063;
+    padding: 20px;
+}
+#new-coin-dev .alert-dark:hover{
+    background-color: #fff;
+    box-shadow: 0px 10px 20px rgb(0,0,0,0.5);
+    color: #1f6063;
+    padding: 20px;
+}
+
+/*-------------------ICO Development---------------------*/
+#ico-dev .title{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px;
+}
+#ico-dev .feature-box {
+    display: inline-block;
+    width: 100%;
+    border: 1px dashed #a6a6a6;
+    border-top: 3px solid #1f6063;
+    border-bottom: 3px solid #1f6063;
+    text-align: center;
+    padding: 14px;
+    margin: 25px 0px;
+    position: relative;
+}
+#ico-dev .feature-box .icon {
+    background: #f2f2f2;
+    padding: 0px;
+    margin: -50px auto 15px auto;
+    color: #1f6063;
+    border: 1px dashed #a6a6a6;
+    border-radius: 50%;
+    font-size: 40px;
+    line-height: 70px;
+    display: block;
+    width: 70px;
+    height: 70px;
+}
+#ico-dev .feature-box .icon:hover {
+    border-left: 3px solid #1f6063;
+    border-right: 3px solid #1f6063;
+}
+#ico-dev .feature-box h4{
+    color:#1f6063;
+}
+#ico-dev .feature-box1 {
+    display: inline-block;
+    width: 100%;
+    border: 1px dashed #a6a6a6;
+    border-left: 3px solid #1f6063;
+    border-right: 3px solid #1f6063;
+    box-shadow: 0px 10px 20px rgb(0,0,0,0.5);
+    border-radius: 10px;
+    text-align: center;
+    padding: 14px;
+    margin: 25px 0px;
+    position: relative;
+}
+#ico-dev .feature-box1 .icon {
+    background: #f2f2f2;
+    padding: 0px;
+    margin: -50px auto 15px auto;
+    color: #1f6063;
+    border: 1px dashed #a6a6a6;
+    box-shadow: 0px 10px 20px rgb(0,0,0,0.5);
+    border-radius: 50%;
+    font-size: 40px;
+    line-height: 70px;
+    display: block;
+    width: 70px;
+    height: 70px;
+}
+#ico-dev .feature-box1 h4{
+    color:#1f6063;
+    font-size: 18px;
+}
+#ico-dev .feature-box1 p{
+    font-size: 15px;
+}
+#ico-dev .feature-box2 {
+    display: inline-block;
+    width: 100%;
+    border: 1px dashed #a6a6a6;
+    border-left: 3px solid #1f6063;
+    border-right: 3px solid #1f6063;
+    box-shadow: 0px 10px 20px rgb(0,0,0,0.5);
+    border-radius: 10px;
+    text-align: center;
+    padding: 14px;
+    margin: 25px 0px;
+    position: relative;
+}
+#ico-dev .feature-box2 .icon {
+    background: #f2f2f2;
+    padding: 0px;
+    margin: -50px auto 15px auto;
+    color: #1f6063;
+    box-shadow: 0px 10px 20px rgb(0,0,0,0.5);
+    border: 1px dashed #a6a6a6;
+    border-radius: 50%;
+    font-size: 40px;
+    line-height: 70px;
+    display: block;
+    width: 70px;
+    height: 70px;
+}
+#ico-dev .feature-box2 .icon:hover {
+    background: #1f6063;
+    color: #f2f2f2;
+}
+#ico-dev .feature-box2 h4{
+    color:#1f6063;
+    font-size: 18px;
+}
+#ico-dev .feature-box2 p{
+    font-size: 14px;
+}
+#ico-dev .feature-box3 {
+    display: inline-block;
+    width: 100%;
+    max-height: 100%;
+    margin-top: 50px;
+    color: #1f6063;
+    border-left: 3px solid #1f6063;
+    border-right: 3px solid #1f6063;
+    border-top: 1px dashed #1f6063;
+    border-bottom: 1px dashed #1f6063;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    text-align: center;
+    padding: 14px;
+    position: relative;
+}
+#ico-dev .feature-box3 .icon {
+    background: #f2f2f2;
+    padding: 0px;
+    margin: -50px auto 15px auto;
+    color: #1f6063;
+    border: 1px dashed #a6a6a6;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    font-size: 40px;
+    line-height: 70px;
+    display: block;
+    width: 70px;
+    height: 70px;
+}
+
+.bg-color{
+    background-color: #1f6063;
+}
+.alert-success{
+    background-color:#1f6063;
+    color:#fff;
+}
+
+/*----------------------- STO Development --------------------*/
+
+#sto-dev .title{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px;
+}
+#sto-dev .alert-success{
+    background-color: #fff;
+    color:#1f6063;
+    border-left: 5px solid #1f6063;
+    max-height: 100%;
+    max-width: 100%;
+    padding: 30px;
+    font-size: 14px;
+}
+#sto-dev .alert-success:hover{
+    border-left: 5px solid #1f6063;
+    border-right: 5px solid #1f6063;
+}
+#sto-dev .alert-danger{
+    background-color: #fff;
+    color:#1f6063;
+    border-left: 5px solid #1f6063;
+    max-height: 100%;
+    max-width: 100%;
+    padding: 30px;
+    font-size: 14px;
+}
+#sto-dev .alert-danger:hover{
+    border-left: 5px solid #1f6063;
+    border-bottom: 5px solid #1f6063;
+}
+#sto-dev .alert-dark{
+    background-color: #fff;
+    color: #1f6063;
+    padding: 20px;
+}
+#sto-dev .alert-dark:hover{
+    box-shadow: 0px 5px 5px rgb(0,0,0,0.5);
+    -webkit-box-shadow: 0px 5px 5px rgb(0,0,0,0.5);
+}
+#sto-dev .alert-info{
+    background-color: #1f6063;
+    color: #fff;
+    padding: 25px;
+}
+
+/*------------------ Crypto Exchange Development--------------------*/
+
+#crypto-exchange-dev .title{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px;
+}
+#crypto-exchange-dev .block1{
+    padding: 50px 0px;
+    background-color: #1f6063;
+}
+#crypto-exchange-dev .img-block{
+    box-shadow: 0px 10px 20px rgb(0,0,0,0.5);
+    background-color: #fff;
+    padding: 45px 0px;
+}
+#crypto-exchange-dev .block2{
+    padding: 50px;
+    background-color: #1f6063;
+    color: #fff;
+}
+#crypto-exchange-dev .block3{
+    padding: 50px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    height: 400px;
+}
+#crypto-exchange-dev .block4{
+    padding: 50px;
+    background-color: #1f6063;
+    color: #fff;
+    height: 400px;
+}
+#crypto-exchange-dev .block5{
+    background-color: #fff;  
+    height: 679px;
+}
+#crypto-exchange-dev .block6{
+    padding: 50px;
+    background-color: #1f6063;
+    height: 679px;
+    color: #fff;
+}
+#crypto-exchange-dev .block7{
+    background-color: #fff;  
+    border: 1px solid #ccc;
+    padding: 25px;
+    height: 200px;
+}
+#crypto-exchange-dev .block8{
+    padding: 25px;
+    background-color: #1f6063;
+    color: #fff;
+    height: 200px;
+}
+#crypto-exchange-dev .block9{
+    background-color: #fff;  
+    border: 1px solid #ccc;
+    padding: 25px;
+    height: 200px;
+}
+#crypto-exchange-dev .block10{
+    padding: 25px;
+    background-color: #1f6063;
+    color: #fff;
+    height: 200px;
+}
+#crypto-exchange-dev .card{
+    height: 530px;
+    margin: 20px 0px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 10px 20px rgb(0,0,0,0.5);
+    box-shadow: 0px 10px 20px rgb(0,0,0,0.5);
+}
+#crypto-exchange-dev .card1{
+    background-color: #fff;
+    box-shadow: 6px 5px 5px;
+    height:375px;
+    padding: 25px;
+    transition: 0.3s ease-in-out;
+}
+#crypto-exchange-dev .card2{
+    background-color: #1f6063;
+    box-shadow: 6px 5px 5px #fff;
+    color: #fff;
+    height:375px;
+    padding: 25px;
+    transition: 0.3s ease-in-out;
+}
+#crypto-exchange-dev .card1:hover{
+    transform: translateY(-10px);
+}
+#crypto-exchange-dev .card2:hover{
+    transform: translateY(-10px);
+}
+#crypto-exchange-dev .card3{
+    background-color: #fff;
+    box-shadow: 6px 5px 5px;
+    height:375px;
+    padding: 25px
+}
+#crypto-exchange-dev .card4{
+    background-color: #1f6063;
+    box-shadow: 6px 5px 5px #fff;
+    color: #fff;
+    height:375px;
+    padding: 25px
+}
+#crypto-exchange-dev .btn-success{
+    border: 1px solid #1f6063;
+    background-color: #fff;
+    color: #1f6063;
+}
+#crypto-exchange-dev .btn-success:hover{
+    border: 1px solid #1f6063;
+    background-color: #1f6063;
+    color: #fff;
+}
+
+/*--------------- BlockChain Solutions For Enterprises---------------*/
+
+#blockchain-sol .title{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px;
+    color: #1f6063;
+}
+#blockchain-sol{
+    color: #fff;
+}
+#blockchain-sol h2{
+    color: #fff;
+}
+#blockchain-sol .card1{
+    max-width: 100%;
+    height: 200px;
+    border: 1px solid #1f6063;
+    background-color: #fff;
+    color: #1f6063;
+    padding: 20px;
+}
+#blockchain-sol .card1:hover{
+    max-width: 100%;
+    height: 200px;
+    border: 1px solid #fff;
+    background-color: #1f6063;
+    color: #fff;
+    padding: 20px;
+}
+/*-------------------Brand Design & Development---------------*/
+
+#brand-design-dev .title{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px;
+}
+#brand-design-dev h3{
+    font-size: 18px;
+    font-weight: 500;
+    color: #1f6063;
+}
+#brand-design-dev .block1{
+    padding: 25px;
+}
+#brand-design-dev .alert-success {
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
+    background-color: #fff;
+    transition: 0.3s ease-in-out;
+}
+#brand-design-dev .alert-success:hover {
+    box-shadow: 0px 7px 14px rgba(0, 0, 0, 0.5);
+    background-color: #fff;
+    transform: translateY(-10px);
+}
+#brand-design-dev .card1 {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    background-color: #fff;
+    border-radius: 10px;
+}
+#brand-design-dev .card2 {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    background-color: #fff;
+    border-radius: 10px;
+}
+#brand-design-dev .card3 {
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
+    background-color: #fff;
+    padding: 20px 10px;
+    margin: 15px 0px;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+#brand-design-dev .card3:hover {
+    box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.5);
+    background-color: #fff;
+    padding: 20px 10px;
+    margin: 5px 0px;
+    border-radius: 5px;
+    transform: translateY(-4px);
+}
+/*------------------- Web-design-development -----------------*/
+
+#web-design-dev .title{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px;
+}
+#web-design-dev .card{
+    background-color: #fff;
+    color: #1f6063;
+    height: 500px;
+    margin: 10px 0px;
+    box-shadow: 0px 10px 20px rgb(0,0,0,0.5);
+}
+#web-design-dev .card img{
+    border-radius: 0px;
+}
+#web-design-dev .card-body{
+    padding: 25px;
+    text-align: center;
+}
+#web-design-dev .card-body h3{
+    color: #1f6063;
+    font-size: 20px;
+    font-weight: 600px;
+}
+#web-design-dev .card-body p{
+    color: #999;
+    font-size: 15px;
+}
+#web-design-dev .card1{
+    background-color: #fff;
+    color: #1f6063;
+    padding: 25px;
+    margin: 10px 10px;
+    height: 500px;
+    border-radius: 10px;
+    border-top: 3px solid #1f6063; 
+    border-bottom: 3px solid #1f6063; 
+    border-left: 1px dashed #1f6063;
+    border-right: 1px dashed #1f6063;
+    box-shadow: 0px 12px 25px rgb(0,0,0,0.5);
+}
+#web-design-dev .card2{
+    background-color: #fff;
+    color: #1f6063;
+    padding: 25px;
+    margin: 10px 10px;
+    height: 250px;
+    border-radius: 10px;
+    border-top: 3px solid #1f6063; 
+    border-bottom: 3px solid #1f6063; 
+    border-left: 1px dashed #1f6063;
+    border-right: 1px dashed #1f6063;
+    box-shadow: 0px 12px 25px rgb(0,0,0,0.5);
+}
+#web-design-dev .card2 h3{
+    font-size: 20px;
+}
+.bg-color1{
+    background-color: #1f6063;
+    padding:50px; 
+}
+.bg-color1 .title{
+    color: #fff;
+}
+#web-design-dev .alert-success{
+    height: 175px
+}
+/*------------------ CMS Development ---------------------*/
+#cms-dev p{
+    margin: 10px 0 !important;
+}
+#cms-dev .title{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px;
+}
+#cms-dev .card{
+    height: 200px;
+    background-color: #fff;
+    color: #1f6063;
+    padding: 25px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    border-top:2px solid #1f6063;
+    border-bottom:2px solid #000000;
+    border-left:1px dashed #ccc;
+    border-right:1px dashed #ccc;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in-out;
+}
+#cms-dev .card:hover{
+    background-color: #1f6063;
+    color: #fff;
+    transform: translateY(-10px);
+}
+#cms-dev .card1{
+    box-shadow: 0px 10px 20px rgb(0,0,0,0.5);
+    border-radius: 10px;
+}
+
+/*-----------------------frameworks-----------------------*/
+
+#frameworks .title{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px;
+}
+#frameworks .card{
+    height: 200px;
+    background-color: #fff;
+    color: #1f6063;
+    padding: 25px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    border-top:2px solid #1f6063;
+    border-bottom:2px solid #000000;
+    border-left:1px dashed #ccc;
+    border-right:1px dashed #ccc;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.5);
+}
+#frameworks .card:hover{
+    height: 200px;
+    background-color: #1f6063;
+    color: #fff;
+    padding: 25px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    border-top:2px solid #1f6063;
+    border-bottom:2px solid #000000;
+    border-left:1px dashed #ccc;
+    border-right:1px dashed #ccc;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.5);
+}
+#frameworks .card1{
+    background-color: #fff;
+    color: #1f6063;
+    height: 495px;
+    border-radius:10px;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.5);
+}
+#frameworks .card1 .card-content1{
+    padding: 20px;
+}
+#frameworks .card1:hover{
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+#frameworks .card3{
+    background-color: #fff;
+    color: #1f6063;
+    padding: 20px;
+    height: 350px;
+    margin: 10px 0px;
+    border-left: 2px solid #1f6063;
+    border-right: 2px solid #1f6063;
+    border-top: 1px dashed #1f6063;
+    border-bottom: 1px dashed #1f6063;
+    border-radius: 10px;
+    box-shadow: 0px 15px 30px rgb(0,0,0,0.5);
+}
+#frameworks .card3-img{
+    border: 2px solid #1f6063;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 18px;
+    margin: 10px 72.5px;
+    height: 70px;
+    width: 70px;
+}
+#frameworks h3{
+    font-size: 16px;
+    color: #1f6063;
+    text-transform: uppercase;
+    font-weight: 400px;
+    text-align: center;
+}
+#frameworks p{
+    font-size: 15px;
+    color: #1f6063;
+}
+#frameworks .card4-img{
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow: 0px 0px 15px 0px rgb(0,0,0,0.5);
+}
+#frameworks .card5{
+    background-color: #fff;
+    color: #1f6063;
+    margin: 10px 0px;
+    box-shadow: 0px 10px 20px rgb(0,0,0,0.5);
+    height: 500px;
+}
+#frameworks .card5 img{
+    border-radius: 0px;
+}
+#frameworks .card5 h3{
+   font-size:16px;
+   text-align: center;
+   margin: 20px 20px;
+}
+#frameworks .card5 p{
+    font-size:14px;
+    text-align: center;
+    padding: 20px;
+ }
+ #frameworks ul li{
+     margin: 10px 0px;
+     font-size: 15px;
+ }
+ /*----------------------Mobile App Development------------------*/
+ #mobile-app-dev .title{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px;
+}
+ #mobile-app-dev .card1{
+     background-color: #fff;
+     color: #1f6063;
+     box-shadow: 0px 3px 6px rgb(0,0,0,0.5);
+     border-radius: 10px;
+     padding: 25px;
+     margin: 10px;
+     height: 300px;
+     transition: 0.3s ease-in-out;
+ }
+ #mobile-app-dev .card1:hover{
+    background-color: #fff;
+    color: #1f6063;
+    box-shadow: 0px 7px 15px rgb(0,0,0,0.5);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 10px;
+    height: 300px;
+    transform: translateY(-10px);
+}
+ #mobile-app-dev .card2{
+     background-color: #fff;
+     color: #1f6063;
+     box-shadow: 0px 7px 15px rgb(0,0,0,0.5);
+     border-radius: 10px;
+     height: 250px;
+     padding: 50px 16px 10px;
+     margin-top: 50px;
+ } 
+ #mobile-app-dev .card2 .icon{
+     position: relative;
+ }
+ #mobile-app-dev .card2 .icon img{
+     position: absolute;
+     top: -95px;
+     left: 73px;
+     z-index: 1;
+ }
+ #mobile-app-dev .card2 h3{
+   font-family: Roboto,'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 16px;
+   margin: 7px 0px;
+   color: #f41e52;
+}
+#mobile-app-dev .card2 p{
+    font-family: Roboto,'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    color: #767b7b;
+    text-align: justify;
+ }
+ 
+/*---------------------- Digital Marketing---------------------*/
+#digital-marketing h3{
+    margin: 10px 0 !important;
+}
+#digital-marketing .block1{
+    background-color: #1f6063;
+    color: #fff;
+    padding: 45px;
+    height: 450px;
+}
+#digital-marketing .block2{
+    background-color: #fff;
+    color: #1f6063;
+    padding: 0px 125px;
+    height: 450px;
+}
+#digital-marketing .card{
+    background-color: #fff;
+    border-top: 2px solid #1f6063;
+    border-bottom: 2px solid #1f6063;
+    border-left: 1px dashed rgb(175, 175, 175);
+    border-right: 1px dashed rgb(175, 175, 175);
+    padding: 25px;
+    border-radius: 10px;
+    height: 200px;
+    margin-bottom: 10px;
+    transition: 0.5s ease-in-out;
+}
+#digital-marketing .card:hover{
+    height: 200px;
+    background-color: #1f6063;
+    color: #fff;
+    box-shadow:0px 5px 5px;
+    transform: translateY(-10px);
+}
+#digital-marketing .card1{
+    background-color: #ddd;
+    color: #1f6063;
+    height:317px;
+    padding: 25px;
+    margin: 20px 0px;
+    border-radius: 10px;
+    border-top:3px solid #1f6063;
+    border-bottom:3px solid #1f6063;
+    border-left:2px dashed #eee;
+    border-right:2px dashed #eee;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) { 
+    .header .card {
+        height: 573px;
+        border: 1px solid #b1b7b8;
+        margin: 20px 0px;
+    }
+    .banner{
+        text-align: center;
+    }
+    #ico-dev .feature-box {
+        margin: 25px 0px;
+    }
+    #ico-dev .feature-box1 {
+        margin: 25px 0px;
+    }
+    #ico-dev .feature-box2 {
+        margin: 25px 0px;
+    }
+}
+
+

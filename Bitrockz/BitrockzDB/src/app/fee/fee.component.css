@@ -1,0 +1,47 @@
+.cms_content h2 {
+    font-size: 28px;
+    color: #000;
+    margin-bottom: 20px;
+}
+.cms_content h3 {
+    font-size: 25px;
+    color: #000;
+    margin-bottom: 20px;
+}
+.cms_content h4 {
+    font-size: 17px;
+    color: #000;
+    margin-bottom: 20px;
+}
+.cms_content ul {
+    padding: 0 0 0 20px;
+    margin: 0;
+}
+.cms_content ul li {
+    font-size: 15px;
+    color: #000;
+    list-style: circle;
+    margin-bottom: 15px;
+}
+.cms_content span {
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.fee_tab .table thead th {
+    vertical-align: bottom;
+    border-bottom: 0 solid #dee2e6;
+    background: #efefef;
+    font-size: 17px;
+    color: #00378a;
+}
+.trading_data table thead th {
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 1.75;
+    color: #00378a;
+    text-align: center;
+    border: 1px solid #cfd2d4;
+    padding: .25rem;
+}

@@ -1,0 +1,541 @@
+
+/*@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body {
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color:#1c283e;
+  color: #fff;
+  font-size: 14px;
+}*/
+
+/*---------------NavBar---------------*/
+/*
+nav{
+	background-color: #09224f
+}
+.dropdown .nav-link{
+	font-size: 12px;
+}
+.navbar-nav li a span{
+	color: #969696;
+}
+#navbardrop{
+	font-size: 24px;
+}
+.dropdown .nav-link:active{
+	font-size: 12px;
+	color: rgb(245, 188, 0);
+    background-color: #1c283e;
+}
+
+/*-------------SecTion----------------*/
+/*
+.box{
+	background-color:#1c283e;
+	padding:1px;
+}
+.box-header{
+    background:#141d2d;
+    color:#848892;
+}
+.box-title{
+    font-size: 14px;
+    margin-bottom: 1px;
+}
+.box-body th{
+    color:#a0aebc;
+}
+.order_box{
+	text-align:center;
+	font-weight:normal;
+	width:100%;
+	margin:0px;
+}
+.order_box tbody tr {
+	background-color: #2a3449;
+	border-bottom: 1px solid #212630;
+	border-top: 1px solid #212630;
+	font-size: 12px;
+}
+.order, .trade{
+	text-align:center;
+	font-weight:normal;
+    width:100%;
+    margin:0px;
+}
+.order tbody{
+    background:#141d2d;
+}
+.order th{
+	text-align:center;
+	font-weight:normal;
+	width:30%;
+}
+
+.nav-tabs{
+    background-color: #2a3449;
+    border-bottom: none;
+}
+.tab-content{
+    background-color: #1c283e;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+}
+.nav-tabs .nav-link {
+    border: none;
+    font-weight: 100;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.nav-tabs .nav-link.active {
+    color: #ffc107;
+    background-color: #1c283e;
+    font-weight: 100;
+    border: none;
+}
+.tab-content table{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 100;
+}
+input {
+    background-color: #141d2d;
+    color: #fff;
+    border: 1px solid #3d4658;
+}
+input:focus {
+    background-color: #141d2d;
+    color: #fff;
+    border: 1px solid #3d4658;
+}
+.but{
+    padding: 1px;
+}
+#green{
+	color:#4db872;
+	font-size: 18px;
+	border-left:2px solid #4db872;
+}
+.card{
+	background-color:#1c283e;
+	height: 30vh;
+}
+
+/*---------------Query----------------*/
+/*
+.chart{
+	width: 100%;
+	height: 61vh;
+}
+.sell_scroll{
+	height: 35vh;
+}
+.buy_scroll{
+	height: 35vh;
+}
+.markets-block{
+    padding: 0px 0px;
+}
+#buy-sell{
+    height: 50vh;
+    margin-top: -134px;
+}
+#bor1{
+	border-right: 1px solid #3f485e;
+}
+
+/*--------------Drop Down--------------*/
+/*
+.dropdown{
+    display: inline;
+}
+.dropdown-toggle{
+    background-color: #09224f;
+    color: #8e969c;
+    border: none;
+    padding: 0;
+    margin: 0px;
+    font-size: 13px;
+}
+.dropdown-menu{
+    background-color: #141d2d;
+    color: #848892;
+    font-size: 12px;
+}
+.dropdown-item:hover{
+    background-color: #848892;
+    color: #141d2d;
+    font-size: 12px;
+}
+
+/*----------ScrollBar------------*/
+/*
+::-webkit-scrollbar {
+    width: 4px;
+    height:5px;
+	color:#46587c;
+}
+::-moz-scrollbar { 
+    width:2px;
+    height:5px;
+}
+::-webkit-scrollbar-thumb {
+    background: #46587c;
+}
+::-moz-scrollbar-thumb {
+	background: #46587c;
+	width:2px;
+    height:5px;
+}
+
+
+
+
+/*================== Media Queries================*/
+
+/* ------------------------------------- iPad Pro ----------------------------------- */
+/*
+
+@media only screen and (max-width: 991px) and (min-width :900px),
+(width: 1024px) and (height: 1366px) and (-webkit-min-device-pixel-ratio: 1.0) and (orientation: portrait)  {
+	.chart{
+        width: 100%;
+        height: 59vh;
+    }
+    .buy_scroll{
+        height:43vh;
+    }
+    .sell_scroll{
+        height:43vh;  
+    }
+    .markets-block{
+        padding: 0px 0px;
+    }
+    #buy-sell{
+        margin-top: -180px;
+    }
+    #orders{
+        width: 100%;
+        height: 30vh;
+    }
+    #buy-sell{
+        width: 100%;
+        height:45.7vh;
+    }
+    #bor{
+        border-right: 1px solid #3f485e;
+    }
+}
+
+@media only screen and (max-width: 991px) and (min-width :900px), 
+(height: 1024px) and (width: 1366px) and (-webkit-min-device-pixel-ratio: 1.0) and (orientation: landscape){
+	.chart{
+        width: 100%;
+        height: 65vh;
+    }
+    .buy_scroll{
+        height:53vh;
+    }
+    .sell_scroll{
+        height:53vh;  
+    }
+    .markets-block{
+        padding: 0px 0px;
+    }
+    #buy-sell{
+        margin-top: -75px;
+    }
+    #orders{
+        width: 100%;
+        height: 25vh;
+    }
+    #buy-sell{
+        width: 100%;
+        height:32.4vh;
+    }
+    #bor{
+        border-right: 1px solid #3f485e;
+    }
+} 
+
+
+/*------------ipad Mini---------------*/
+/*
+
+@media only screen  and ( max-width : 991px) and ( min-width : 768px)
+and (-webkit-min-device-pixel-ratio: 1.0) and (orientation : portrait) { 
+    .chart{
+        width: 100%;
+        height: 62.6vh;
+    }
+    .buy_scroll{
+        height:27vh;
+    }
+    .sell_scroll{
+        height:27vh;  
+    }
+    .markets-block{
+        padding: 0px 0px;
+    }
+    #buy-sell{
+        margin-top: -320px;
+    }
+    #orders{
+        width: 100%;
+        height: 25vh;
+    }
+    #buy-sell{
+        width: 100%;
+        height:59vh;
+    }
+    #bor{
+        border-right: 1px solid #3f485e;
+    }
+    .col-sm-12 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .order_box tbody tr {
+        font-size: 10px;
+    }
+    body{
+        font-size: 9px;
+    }
+    #green {
+        font-size: 11px;
+    }
+    #navbardrop {
+        font-size: 16px;
+    }
+}
+
+@media only screen and ( max-width : 1024px)and ( min-width : 991px) 
+and (-webkit-min-device-pixel-ratio: 1) and (orientation : landscape) { 
+	
+}
+
+/*-----------------NorMal DeviCes----------------*/
+/*
+
+@media (min-width: 300px) and (max-width:575px) {
+    #desktop{
+		display: none;
+	}
+	body {
+		font-size: 13px;
+	}
+	.nav-tabs {
+		border-bottom: none;
+		background-color: #2a3449;
+		margin-top: 0vh;
+	}
+	#ipadpro{
+		position: relative;
+		width: 50%;
+		min-height: 1px;
+        font-size: 12px;
+        margin-top:43vh;
+	}
+	.navbar-nav {
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-direction: initial;
+	    flex-direction:  initial; 
+		padding-left: 0;
+		margin-bottom: 0;
+		list-style: none;
+	}
+	#green {
+		margin-left: 26px;
+	}
+	#buy-sell{
+		margin-top: 0px;
+	}
+	.markets-block1{
+		height: 0px;
+	}
+	.markets-block3{
+		margin-top: 0px;
+	}
+	.sell_scroll{
+		height: 38.6vh;
+	}
+	.buy_scroll{
+		height: 38.6vh;
+	}
+	a.nav-link.text-white {
+		margin: 5px;
+	}
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+/*
+@media (min-width: 576px) and (max-width:767px) {
+    #desktop{
+		display: none;
+	}
+	.col-sm-5 {
+		-ms-flex: 0 0 41.666667%;
+		flex: 0 0 100%; 
+		max-width: 100%;
+	}
+	.col-md-5 {
+		-ms-flex: 0 0 41.666667%;
+		flex: 0 0 100%; 
+		max-width: 100%;
+	}
+	.col-lg-5 {
+		-ms-flex: 0 0 41.666667%;
+		flex: 0 0 100%; 
+		max-width: 100%;
+	}
+	.col-sm-7 {
+		-ms-flex: 0 0 41.666667%;
+		flex: 0 0 100%; 
+		max-width: 100%;
+	}
+	.col-md-7 {
+		-ms-flex: 0 0 41.666667%;
+		flex: 0 0 100%; 
+		max-width: 100%;
+	}
+	.col-lg-7 {
+		-ms-flex: 0 0 41.666667%;
+		flex: 0 0 100%; 
+		max-width: 100%;
+	}
+}
+
+@media (min-width: 768px) and (max-width:899px) {
+	#mobile{
+		display: none;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up)*/
+/*
+@media (min-width: 992px) and (max-width:1199px) {
+	#mobile{
+		display: none;
+    }
+}
+
+@media (min-width: 1200px) and (max-width:1365px) {
+	#mobile{
+		display: none;
+    }
+}
+
+@media (min-width: 1366px) and (max-width: 1439px){
+	#mobile{
+		display: none;
+	}	
+}
+
+@media (min-width: 1440px) and (max-width: 1909px){
+	#mobile{
+		display: none;
+	}
+	.sell_scroll{
+		height: 39.6vh;
+		font-size: 19px;
+	}
+	.buy_scroll{
+		height: 39.6vh;
+		font-size: 19px;
+	}
+	.chart{
+		height: 479px;
+	}
+	#bor{
+		border-right: 1px solid #3d4658;
+	}
+   .dropdown button{
+		font-size: 17px;
+		padding-left: 43px;
+	}
+	.box-title{
+		font-size: 19px;
+	}
+	.p-1 {
+        margin: 2px 0px;
+	}
+	.order_box tbody tr {
+		font-size: 17px;
+	}
+	.order th {
+		font-size: 17px;
+	}
+	.tab-pane{
+		font-size: 16px;
+	}
+	.ml-5, .mx-5 {
+		 margin-left: 0rem!important;
+	}
+	.btn-group-sm>.btn, .btn-sm {
+		font-size: 15px;
+	}
+	.ml-1, .mx-1 {
+		margin-left: 0px!important;
+	}
+}
+@media (min-width: 1910px){
+	#mobile{
+		display: none;
+	}
+	.sell_scroll{
+		height: 38.6vh;
+		font-size: 19px;
+	}
+	.buy_scroll{
+		height: 38.6vh;
+		font-size: 19px;
+	}
+	.chart{
+		height: 600px;
+	}
+	#bor{
+		border-right: 1px solid #3d4658;
+	}
+   .dropdown button{
+		font-size: 23px;
+		padding-left: 43px;
+	}
+	.box-title{
+		font-size: 24px;
+	}
+	.p-1 {
+    	margin: 2px 0px;
+	}
+	.order_box tbody tr {
+		font-size: 20px;
+	}
+	.order th {
+		font-size: 20px;
+	}
+	.tab-pane{
+		font-size: 20px;
+	}
+	.ml-5, .mx-5 {
+		 margin-left: 0rem!important;
+	}
+	.btn-group-sm>.btn, .btn-sm {
+		font-size: 21px;
+	}
+	.ml-1, .mx-1 {
+		margin-left: 0px!important;
+	}
+	.nav-link {
+		font-size: 18px;
+	}
+
+}*/
